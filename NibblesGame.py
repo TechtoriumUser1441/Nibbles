@@ -7,7 +7,7 @@ WIN_X = 800
 WIN_Y = 600
 WIN = pygame.display.set_mode((WIN_X,WIN_Y))
 CLOCK = pygame.time.Clock()
-pygame.display.set_caption('snake game')
+pygame.display.set_caption('Project Nibbles')
 font=pygame.font.SysFont('comicsans',40)
 
 def writetext(text, x, y, color=(0,0,0), fontsize=24):
